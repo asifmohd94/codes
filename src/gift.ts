@@ -1,4 +1,4 @@
-var buy = function (x, arr) {
+export function gift(x: number, arr: []) {
     let indices = [];
     let bol = false;
     for (let i = 0; i < arr.length - 1; i++) {
